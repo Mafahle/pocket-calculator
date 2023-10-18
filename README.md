@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Pocket Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Version: 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 
-## Available Scripts
+The Pocket Calculator is a clean and simple arithmetic calculator developed using the React.js framework. Designed for easy use and accuracy, it covers basic arithmetic operations and provides a user-friendly interface.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Basic Operations**: Supports addition, subtraction, multiplication, and division.
+- **User-Friendly Interface**: Large buttons, clear display, and intuitive design.
+- **Responsive**: Fits well on various screen sizes.
+- **Error Handling**: Notifies the user when they enter an invalid operation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation & Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js & npm installed on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository to your local machine:
+```bash
+git clone <repository_url>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+```bash
+cd path_to_directory
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the required dependencies:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run the app:
+```bash
+npm start
+```
 
-### `npm run eject`
+Once started, the app should automatically open in your default browser. If not, navigate to `http://localhost:3000/` to access the Pocket Calculator.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [string-math](https://www.npmjs.com/package/string-math)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- UI inspired by modern calculator designs. (https://dribbble.com/shots/8875610-Calculator-UI-Concept-Figma/attachments/1057699?mode=media)
+- Logo by Equal Experts. (https://www.equalexperts.com/wp-content/themes/equalexperts/assets/logos/colour/equal-experts-logo-colour.png)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is open-source and is available under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Remember to replace placeholders (`<repository_url>` and `path_to_your_UI_image.jpg`) with the actual URLs.
